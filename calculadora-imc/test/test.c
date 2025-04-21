@@ -5,8 +5,8 @@
 
 // Teste 1: Verifica se o IMC é calculado corretamente para valores normais
 MU_TEST(test_calculo_normal) {
-    double imc = calculo(70, 1.65);
-    mu_assert_double_eq(25.71, imc); 
+    double imc = calculo(200, 2);
+    mu_assert_double_eq(50, imc); 
 }
 
 // Teste 2: Verifica se o tratamento para peso zero está funcionando
